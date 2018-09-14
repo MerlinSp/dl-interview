@@ -4,9 +4,9 @@
 
 There is only one script in the repo that produces all the desired results. It trains a net with the training data that was provided, saves the weights, saves the submission csv file with the predictions on the test images, and finally, saves the test images with corrected rotation to a folder.
 
-To use simply run 'python train_net_and_submit.py <<training images path>> <<training data ground truth csv>> <<test images path>>'
+To use simply run 'python train_net_and_submit.py training images path training data ground truth csv test images path'
 
-Example: 
+Example: python train_net_and_submit.py /home/merlin/Downloads/train.rotfaces/train /home/merlin/Downloads/train.rotfaces/train.truth.csv /home/merlin/Downloads/test.rotfaces/test
 
 You can find the submission csv and the zip with the test images with corrected rotations in the parent folder of this repository.
 
