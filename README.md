@@ -4,7 +4,7 @@
 
 There is only one script in the repo that produces all the desired results. It trains a net with the training data that was provided, saves the weights, saves the submission csv file with the predictions on the test images, and finally, saves the test images with corrected rotation to a folder.
 
-To use simply run 'python <training images path> <training data ground truth csv> <test images path>'
+To use simply run 'python train_net_and_submit.py <training images path> <training data ground truth csv> <test images path>'
 
 Example: 
 
